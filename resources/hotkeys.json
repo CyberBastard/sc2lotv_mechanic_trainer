@@ -1,0 +1,69 @@
+{
+  "Warp In Structure (B)": {
+    "Warp In Nexus (N)": [
+      "Warp In Probe (E)",
+      "Warp In Mothership (M)",
+      "Chrono Boost (C)",
+      "Mass Recall (R)"
+    ],
+    "Warp In Assimilator (A)": {},
+    "Warp In Pylon (E)": {},
+    "Warp In Gateway (G)": [
+      "Warp In Zealot (Z)",
+      "Warp In Sentry (E)",
+      "Warp In Stalker (S)",
+      "Warp In Adept (H)",
+      "Warp In High Templar (T)",
+      "Warp In Dark Templar (D)",
+      "Transform To Warp Gate (G)"
+    ],
+    "Warp In Forge (F)": [
+      "Upgrade Ground Weapon (G)",
+      "Upgrade Ground Armor (A)",
+      "Upgrade Shields (S)"
+    ],
+    "Warp In Cybernetics Core (Y)": [
+      "Upgrade Air Weapon (E)",
+      "Upgrade Air Armor (A)",
+      "Research Warp Gate (G)"
+    ],
+    "Warp In Photon Cannon (C)": {},
+    "Warp In Shield Battery (B)": {}
+  },
+  "Warp In Advanced Structure (V)": {
+    "Warp In Twilight Council (C)": [
+      "Research Charge (C)",
+      "Research Blink (B)",
+      "Research Resonating Glaives (A)"
+    ],
+    "Warp In Stargate (S)": [
+      "Warp In Phoenix (X)",
+      "Warp In Oracle (E)",
+      "Warp In Void Ray (V)",
+      "Warp In Tempest (T)",
+      "Warp In Carrier (C)"
+    ],
+    "Warp In Robotics Facility (R)": [
+      "Warp In Observer (B)",
+      "Warp In Warp Prism (A)",
+      "Warp In Immortal (I)",
+      "Warp In Colossus (C)",
+      "Warp In Disruptor (D)"
+    ],
+    "Warp In Templar Archives (T)": [
+      "Research Psionic Storm (T)"
+    ],
+    "Warp In Fleet Beacon (F)": [
+      "Research Anion Pulse-Crystals (R)",
+      "Research Graviton Catapult (G)"
+    ],
+    "Warp In Robotics Bay (B)": [
+      "Research Gravitic Boosters (B)",
+      "Research Gravitic Drive (G)",
+      "Research Extended Thermal Lance (E)"
+    ],
+    "Warp In Dark Shrine (D)": [
+      "Research Shadow Stride (B)"
+    ]
+  }
+}
