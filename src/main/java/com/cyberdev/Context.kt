@@ -1,13 +1,8 @@
 package com.cyberdev
 
 import javafx.scene.input.KeyCode
-import java.util.stream.Collectors.toList
 
-class Main {
-
-    var selectedAction: Actions = Actions.NOT_SELECTED
-    var selectedRace: Races = Races.NO_RACE
-    var selectedStructure: Structures = Structures.NOT_SELECTED
+class Context {
 
     val actionsHotkeys = mapOf(
             Actions.WARP_IN_STRUCTURE to KeyCode.B,
@@ -33,13 +28,4 @@ class Main {
             Structures.ROBOTICS_BAY to KeyCode.B,
             Structures.DARK_SHRINE to KeyCode.D
     )
-
-    fun getStructure(keyCode: KeyCode): List<Structures> {
-        return structuresHotkeys.entries.stream()
-                .filter { it.value == keyCode }
-                .filter { it.key.parentAction == selectedAction }
-                .filter { it.key.race == selectedRace }
-                .map { it.key }
-                .collect(toList())
-    }
 }
