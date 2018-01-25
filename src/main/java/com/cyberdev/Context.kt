@@ -49,7 +49,7 @@ class Context {
     )
 
     private fun getImageFromResources(building: String): ImageView {
-        val imageView =  ImageView(Context::class.java.getResource("/protoss/Icon_Protoss_$building.jpg").toExternalForm())
+        val imageView =  ImageView(Context::class.java.getResource("/protoss/Icon_Protoss_$building.png").toExternalForm())
         with(imageView) {
             fitHeight = 50.0
             fitWidth = 50.0
